@@ -6,6 +6,8 @@ defmodule AddressConverter.MixProject do
       app: :address_converter,
       version: "0.1.0",
       elixir: "~> 1.18",
+      description: description(),
+      package: package(),
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
@@ -15,6 +17,21 @@ defmodule AddressConverter.MixProject do
   def application do
     [
       extra_applications: [:logger]
+    ]
+  end
+
+  defp description do
+    "A library for converting addresses between different formats."
+  end
+
+  defp package do
+    [
+      maintainers: [
+        "iamnotaturtle"
+      ],
+      licenses: ["MIT"],
+      links: %{github: "https://github.com/iamnotaturtle/address_converter"},
+      files: ~w(lib CHANGELOG.md LICENSE.md mix.exs README.md)
     ]
   end
 
