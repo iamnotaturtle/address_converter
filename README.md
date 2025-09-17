@@ -16,6 +16,14 @@ def deps do
 end
 ```
 
+## Usage
+Convert an EVM address into a Substrate one:
+```elixir
+AddressConverter.to_ss58("0x10E0271ec47d55511a047516f2a7301801d55eaB")
+"5GDXvqASMPKNbnmSEt69CkbL6YwiN3sLbVqdPFW4cvC43zSH"
+```
+
+## Docs
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/address_converter>.

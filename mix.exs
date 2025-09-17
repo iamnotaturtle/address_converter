@@ -22,7 +22,8 @@ defmodule AddressConverter.MixProject do
   defp deps do
     [
       {:blake2_elixir, "~> 0.9.0"},
-      {:b58, "~> 1.0.2"}
+      {:b58, "~> 1.0.2"},
+      {:ex_doc, "~> 0.30", only: :dev, runtime: false}
     ]
   end
 end
