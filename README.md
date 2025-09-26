@@ -28,3 +28,11 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/address_converter>.
 
+## Resources
+Good overview on the SS58 address format:
+https://docs.infrablockchain.net/infrablockchain-docs/infrablockchain/learn/substrate/learn/address-formats
+
+The ss58 registry can be found here: https://github.com/paritytech/ss58-registry/blob/main/ss58-registry.json
+
+## Supported Addresses
+* [SS58](https://wiki.polkadot.com/learn/learn-account-advanced/#address-format)
